@@ -1,0 +1,85 @@
+html {
+  background-color: black;
+  border-color: mediumaquamarine;
+  color: mediumaquamarine;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  width: 900px;
+}
+body {
+  background-color: black;
+  height: 865px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+button {
+  background-color: darkcyan;
+  color: navy;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 17px;
+}
+button:hover {
+  background-color: darkcyan;
+  color: whitesmoke;
+  font-size: 24px;
+  cursor: pointer;
+}
+button:active {
+  background-color: rgb(31, 172, 172);
+  color: whitesmoke;
+  font-size: 24px;
+  cursor: pointer;
+  transform: rotate(0.00999turn) scale(0.85);
+}
+
+.btns {
+  display: inline-block;
+}
+
+a {
+  color: navy;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.gold {
+  color: orange;
+  padding-right: 17px;
+}
+.health {
+  color: red;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: "Gabriola", sans-serif;
+  word-spacing: 5px;
+}
+
+.enemyhealth{
+  color:red;
+  transform: translateY(150px);
+}
+
+.words{
+  color:white;
+  font-family: "Gabriola", sans-serif;
+}
