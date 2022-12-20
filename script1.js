@@ -76,6 +76,8 @@ function bribe() {
     document.getElementById("words2").innerHTML = "You Successfully Bribe The Carrot";
     newgold = gold - 2;
     gold = newgold;
+    wait (760)
+    window.location.href = "continue.html"; // Redirect To Continue Screen
   }
 }
 
